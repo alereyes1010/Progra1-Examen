@@ -2,7 +2,6 @@
 #include <vector>
 #include <string>
 #include "TomatoesRepository.h"
-#include "CheeseRepository.h"
 #include "IngredientSelector.h"
 #include "MeatsRepository.h"
 
@@ -20,7 +19,6 @@ private:
     void SelectMeats(); 
 
     TomatoesRepository tomatoRepo_;
-    CheeseRepository cheeseRepo_;
     MeatsRepository meatsRepo_; 
 
     std::vector<std::string> selectedIngredients_;
